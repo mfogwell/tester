@@ -7,5 +7,10 @@ pipeline {
         sleep 5
       }
     }
+    stage('') {
+      steps {
+        sh './jenkins/build.sh'
+      }
+    }
   }
 }
